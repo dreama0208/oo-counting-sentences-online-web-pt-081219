@@ -21,3 +21,4 @@ class String
     array_new.length
   end
 end
+s
