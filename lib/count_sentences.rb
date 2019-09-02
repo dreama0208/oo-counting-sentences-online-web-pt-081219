@@ -17,7 +17,6 @@ class String
   def count_sentences
     array = self.split(/[!*.*?*]/)
     array_new = array.delete_if{ |e| e = " " }
-    count = array_new.length
-    count
+    array_new.length
   end
 end
